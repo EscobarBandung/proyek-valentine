@@ -49,10 +49,9 @@ body {
 .buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 16px;
   position: relative;
-  height: 60px;
+  height: 70px; /* 🔥 lebih besar */
 }
 
 .btn {
@@ -76,7 +75,8 @@ body {
 }
 
 .no {
+  position: static; /* awal sejajar */
   background: #bdbdbd;
   color: white;
-  position: relative; /* penting: biar sejajar dulu */
 }
+
